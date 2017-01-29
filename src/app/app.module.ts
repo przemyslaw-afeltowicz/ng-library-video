@@ -7,13 +7,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { FilmsComponent } from './films/films.component';
 import { FilmsService } from './films.service';
-import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { FilmComponent } from './film/film.component';
 
 const appRoutes: Routes = [
   { path: 'films', component: FilmsComponent },
-  { path: 'nav', component: NavbarComponent },
   { path: 'about', component: AboutComponent },
   { path: 'film/:id', component: FilmComponent },
   { path: '',
@@ -26,7 +24,6 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     FilmsComponent,
-    NavbarComponent,
     AboutComponent,
     FilmComponent
   ],
