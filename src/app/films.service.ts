@@ -17,7 +17,7 @@ export class FilmsService {
     {
       id: 2,
       title: "Lorem ipsum",
-      thumb: "https://cssslider.com/sliders/demo-5/data1/images/road_forest_trees_tree_trip_nature_leaves_season.jpg",
+      thumb: "https://static1.squarespace.com/static/54406c8fe4b0b8e2e81ba876/58351244e3df28974c9282cf/5835127a579fb34d13e304a3/1479873150361/pexels-photo-196667.jpeg",
       description: "Opis filmu",
       source: "http://projekty.pro-comp.pl/nowy/video.mp4",
       category: "Dramat",
