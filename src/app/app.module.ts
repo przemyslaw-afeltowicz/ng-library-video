@@ -9,6 +9,7 @@ import { FilmsComponent } from './films/films.component';
 import { FilmsService } from './films.service';
 import { AboutComponent } from './about/about.component';
 import { FilmComponent } from './film/film.component';
+import { PlayerComponent } from './player/player.component';
 
 const appRoutes: Routes = [
   { path: 'films', component: FilmsComponent },
@@ -25,7 +26,8 @@ const appRoutes: Routes = [
     AppComponent,
     FilmsComponent,
     AboutComponent,
-    FilmComponent
+    FilmComponent,
+    PlayerComponent
   ],
   imports: [
     BrowserModule,

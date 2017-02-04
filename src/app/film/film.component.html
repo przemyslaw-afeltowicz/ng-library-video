@@ -1,25 +1,13 @@
-<div class="container">
+<div class="container films">
   <div class="row">
-    <div class="col-md-6">
-      <div class="html5-player">
-        <div class="player-video">
-          <video #video src="{{film.source}}" (click)="setPlay(video, button)" (timeupdate)="progress(video, range)"></video>
-        </div>
-        <div class="player-control-bg">
-          <input #range type="range" value="0" min="0" max="100" (change)="setTime(video, range)">
-          <div class="player-controls">
-            <button #button (click)="setPlay(video, button)">Play</button>
-            <button #fullscreen (click)="setFullScreen(video)">fullscreen</button>
-          </div>
-        </div>
-      </div>
+    <div class="col-md-8">
+      <app-player [src]="film.source" [poster]="film.thumb"></app-player>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <h1>Tytuł: {{film.title}}</h1>
       <p>Opis: {{film.description}}</p>
       <p>Kategoria: {{film.category}}</p>
       <p>Reżyser: {{film.director}}</p>
     </div>
   </div>
-
 </div>
