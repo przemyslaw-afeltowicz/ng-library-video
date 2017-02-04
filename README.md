@@ -2,7 +2,7 @@
 
 ## Live preview
 
-https://przemyslaw-afeltowicz.github.io//ng-library-video/flims
+https://przemyslaw-afeltowicz.github.io/ng-library-video/flims
 
 ## Developer Usage:
 
