@@ -6,7 +6,7 @@ export class FilmsService {
   films = [
     {
       id: 1,
-      thumb: "http://news.mit.edu/sites/mit.edu.newsoffice/files/images/2016/MIT-Earth-Dish_0.jpg",
+      thumb: "https://news.mit.edu/sites/mit.edu.newsoffice/files/images/2016/MIT-Earth-Dish_0.jpg",
       title: "Tytuł filmu",
       description: "Opis filmu",
       source: "http://projekty.pro-comp.pl/nowy/video.mp4",
@@ -17,7 +17,7 @@ export class FilmsService {
     {
       id: 2,
       title: "Lorem ipsum",
-      thumb: "http://cssslider.com/sliders/demo-5/data1/images/road_forest_trees_tree_trip_nature_leaves_season.jpg",
+      thumb: "https://cssslider.com/sliders/demo-5/data1/images/road_forest_trees_tree_trip_nature_leaves_season.jpg",
       description: "Opis filmu",
       source: "http://projekty.pro-comp.pl/nowy/video.mp4",
       category: "Dramat",
